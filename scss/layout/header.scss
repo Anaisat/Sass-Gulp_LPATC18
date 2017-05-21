@@ -1,0 +1,15 @@
+
+/* Scss Document */
+
+/*Header*/
+
+header {
+  display: flex;
+  margin: 20px 0 0 10px;
+    h1 div {
+        @include h1;
+        width: 292px;
+        height: 17px;
+        padding-top: 10px;
+      }
+    }

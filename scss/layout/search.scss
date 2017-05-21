@@ -1,0 +1,41 @@
+
+/* Scss Document */
+
+/* Search*/
+
+.search{
+  color: $white-two;
+  display: flex;
+  text-align: center;
+    span a{
+    color: $white-two;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 45px;
+  }
+}
+
+.search-bar {
+  height: 167px;
+  background-color: $earth;
+  display: flex;
+  color: $white-two;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+      span a {
+        color: $white-two;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 45px;
+      }
+    }
+
+
+
+
+.title {font-family: Montserrat;font-size: 25px;font-weight: bold;padding: 0px 0 20px 0;letter-spacing: .07em;color: #ebebeb;}
+[type="search"] {width: 526px;height: 47px;background-color: $white-three;border: solid 1px $dark-peach;font-style: italic;
+padding: 20px;letter-spacing: 0.06em;font-family: opensans;font-size: 14px;}
+[type="submit"].flex-menu-item {position: absolute;background-color: $white-three;border: solid 1px $dark-peach;width: 65px;height: 47px;margin-left: -6px;}
+input[type="search"] {-webkit-appearance: none;}

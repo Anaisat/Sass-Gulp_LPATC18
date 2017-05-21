@@ -1,0 +1,26 @@
+
+/* Scss Document */
+
+/*Sidebar*/
+
+.sidebar {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+    h2 {
+      @include h2;
+    }
+  }
+.last-comments {height: 260px; display: block;float: left;}
+.comments {
+  width: 407px;
+  height: 250px;
+  background-color: $white;
+  margin:15px 0 15px 0;
+    h4 {
+      @include h4;
+    }
+  }
+.bkgnd-icon {transform: rotate(-5deg);font-size: 155px;color: rgba(235, 235, 235, 0.45);position: absolute;display: flex;margin-left: -15px;margin-top: -10px;}
+.comment-small {font-style: italic;font-size: 14px;line-height: 1.71;}
+.sidebar .comments-button {margin-top: auto;}
