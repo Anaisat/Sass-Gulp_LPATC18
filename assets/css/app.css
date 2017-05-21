@@ -2,19 +2,21 @@
 Table of contents:
 
 1. BASE
-- RESET CSS
-- BASE
-- TYPOGRAPHY
-- COLORS
+1.1 - RESET CSS
+1.2 - BASE
+1.3 -TYPOGRAPHY
+1.4 -COLORS
 
 2. LAYOUTS
-  - HEADER
-  - SEARCH
-  - NAVIGATION
-  - SIDEBAR
-  - FOOTER
+2.1 - HEADER
+2.2 - SEARCH
+2.3 - NAVIGATION
+2.4 - CONTENT
+2.5 - SIDEBAR
+2.6 - FOOTER
 */
-/* Scss Document */
+
+/* 1.1 Scss Document */
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -214,7 +216,7 @@ select
 }
 
 /* Scss Document */
-/*Base*/
+/* 1.2 Base*/
 *
 {
     -moz-box-sizing: border-box;
@@ -235,7 +237,7 @@ body
 }
 
 /* Scss Document */
-/*Typography*/
+/* 1.3 Typography*/
 p
 {
     font-family: OpenSans;
@@ -297,9 +299,10 @@ a
 }
 
 /* Scss Document */
-/*Colors*/
+/* 1.4 Colors*/
+
 /* Scss Document */
-/*Header*/
+/* 2.1 Header*/
 header
 {
     display: -webkit-box;
@@ -323,7 +326,7 @@ header h1 div
 }
 
 /* Scss Document */
-/* Search*/
+/* 2.2 Search*/
 .search
 {
     display: -webkit-box;
@@ -430,7 +433,7 @@ input[type='search']
 }
 
 /* Scss Document */
-/*Navigation*/
+/* 2.3 Navigation*/
 nav
 {
     display: -webkit-box;
@@ -733,7 +736,7 @@ nav
 }
 
 /* Scss Document */
-/*MAIN*/
+/* 2.4 MAIN */
 .main
 {
     font-family: OpenSans; 
@@ -1013,7 +1016,7 @@ nav
 }
 
 /* Scss Document */
-/*Sidebar*/
+/* 2.5 Sidebar */
 .sidebar
 {
     display: -webkit-box;
@@ -1102,7 +1105,7 @@ nav
 }
 
 /* Scss Document */
-/* Footer*/
+/* 2.6  Footer*/
 footer
 {
     display: -webkit-box;
